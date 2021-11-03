@@ -65,3 +65,6 @@ li {
   align-items: center;
   display: inherit;
 }
+
+.hover tr:hover {background-color: #E5707E;
+  }
