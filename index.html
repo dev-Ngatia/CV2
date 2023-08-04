@@ -26,6 +26,7 @@
   <u>
     <h1>Steven Ngatia Mwangi.</h1>
   </u>
+  <div>
   <marquee behavior="slide" direction="left" scrollamount="50">
     <table cellspacing="20">
       <tr>
@@ -34,11 +35,28 @@
           <p><em>Aspiring <strong>Web Developer.</strong></em></p>
           <p><em>From <strong>Nairobi, Kenya.</strong></em></p>
           <p><em>Residing in <strong>Kigali, Rwanda.</strong></em></p>
-          <p>My name is Steven Ngatia Mwangi and I am an 18 year old Kenyan visiting my family in Rwanda.<br> I love cars, pedigree dogs, planes, fire, my family, and everything about computers.</p>
+          <p>My name is Steven Ngatia Mwangi and I am an <script>
+    var dob = new Date("11/26/2002");
+    //calculate month difference from current date in time
+    var month_diff = Date.now() - dob.getTime();
+
+    //convert the calculated difference in date format
+    var age_dt = new Date(month_diff);
+
+    //extract year from date
+    var year = age_dt.getUTCFullYear();
+
+    //now calculate the age of the user
+    var age = Math.abs(year - 1970);
+
+    //display the calculated age
+    document.write(age);
+</script> year old Kenyan visiting my family in Rwanda.<br> I love cars, pedigree dogs, planes, fire, my family, and everything about computers.</p>
         </td>
       </tr>
     </table>
   </Marquee>
+    </div>
   <hr>
   </center>
 </body>
