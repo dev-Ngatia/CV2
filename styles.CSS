@@ -1,3 +1,8 @@
+html {
+   max-width: 97%;
+   max-height: 97%;
+}
+
 body {
   background-color: #A3DDCB;
   color: black;
